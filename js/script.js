@@ -13,9 +13,9 @@ function emailFunc(e){
     let re = /^([a-zA-Z0-9]\.?)+[^\.]@([a-zA-Z0-9]\.?)+[^\.]$/;
     console.log(re.test(a));
     if(re.test(a)){
-        alert("Your Email is Validated");
+        alert("Your Email is valid");
     }else{
-        alert("Your Email is not Validated");
+        alert("Your Email is not valid");
     }
 }
 
@@ -25,9 +25,9 @@ function phoneFunc(e){
     let re = /^(\+)?(88)?01[0-9]{9}$/;
     console.log(re.test(a));
     if(re.test(a)){
-        alert("Your Phone Number is Validated");
+        alert("Your Phone Number is valid");
     }else{
-        alert("Your Phone Number is not Validated");
+        alert("Your Phone Number is not valid");
     }
 }
 
@@ -37,8 +37,8 @@ function postFunc(e){
     let re = /^[0-9]{4}$/;
     console.log(re.test(a));
     if(re.test(a)){
-        alert("Your Post Code is Validated");
+        alert("Your Post Code is valid");
     }else{
-        alert("Your Post Code is not Validated");
+        alert("Your Post Code is not valid");
     }
 }
